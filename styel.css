@@ -47,17 +47,9 @@ body{
     margin-bottom: 10px;
 }
 .contact i {color: #3b82f6;}
-
-.back{height: 50vh;}
-@media only screen and (min-width: 40px){.back{height: 10vh;}}
-@media only screen and (min-width: 623px){.back{height: 15vh;}}
-@media only screen and (min-width: 768px){.back{height: 20vh;}}
-@media only screen and (min-width: 1170px){.back{height: 30vh;}}
-@media only screen and (min-width: 1300px){.back{height: 50vh;}}
 /* animation */
 svg {
   font-family: 'Russo One', sans-serif;
-  position: absolute; 
   margin: auto;
 }
 svg text {
