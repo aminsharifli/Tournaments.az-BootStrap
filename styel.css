@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6fb;
+}
+.navbar{
+    background: #1e3c72
+}
+.carousel-item{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.sliders{
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.game-card{
+    transition: .3s;
+}
+.game-card:hover{
+    transform: translateY(-10px);
+}
+.footers{
+    background: #1e3c72;
+}
+.tournaments{
+    border-left: 5px solid #3b82f6;
+    transition: 0.3s;
+    margin: 0 30px;
+}
+.tournaments:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.about{
+  background: #c9c9c98a;
+  padding: 20px 0 0 0;
+}
+.contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact i {color: #3b82f6;}
+
+.back{height: 50vh;}
+@media only screen and (min-width: 40px){.back{height: 10vh;}}
+@media only screen and (min-width: 623px){.back{height: 15vh;}}
+@media only screen and (min-width: 768px){.back{height: 20vh;}}
+@media only screen and (min-width: 1170px){.back{height: 30vh;}}
+@media only screen and (min-width: 1300px){.back{height: 50vh;}}
+/* animation */
+svg {
+  font-family: 'Russo One', sans-serif;
+  position: absolute; 
+  margin: auto;
+}
+svg text {
+  text-transform: uppercase;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 140px;
+}
+@keyframes stroke {
+  0%   {
+    fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
+  80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+  100% {
+    fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
+}
